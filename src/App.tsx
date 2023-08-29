@@ -1,5 +1,7 @@
+import { HelloWorld } from '@/components';
+
 function App() {
-  return <div>Helloo</div>;
+  return <HelloWorld />;
 }
 
 export default App;
