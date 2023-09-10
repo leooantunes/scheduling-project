@@ -1,7 +1,14 @@
-import { HelloWorld } from '@/components';
+import { Navbar } from '@/components';
+import { Login } from '@/pages';
+import './global.css';
 
 function App() {
-  return <HelloWorld />;
+  return (
+    <>
+      <Navbar />
+      <Login />
+    </>
+  );
 }
 
 export default App;
